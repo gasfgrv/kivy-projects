@@ -11,4 +11,3 @@ def build():
 app = App()
 app.build = build
 app.run()
-
