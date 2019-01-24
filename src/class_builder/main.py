@@ -1,3 +1,4 @@
+from kivy.lang import Builder
 from kivy.app import App
 import kivy
 kivy.require("1.10.1")
@@ -11,7 +12,6 @@ BoxLayout:
         text: "right"
 """
 
-from kivy.lang import Builder
 
 class Estudo(App):
     def build(self):
